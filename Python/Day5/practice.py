@@ -11,3 +11,11 @@ False  #0.0 부울값이 0이라는 것을 확인
 ...
 a is Zero
 -------------------------------------------------------------
+total = 0
+index = 0
+while index < len(subject):
+...  total += subject[index]
+...  index += 1
+... total/4
+...
+88.5
